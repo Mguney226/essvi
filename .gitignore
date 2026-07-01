@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+serve/.venv-serve/
+
+# Generated data + fitted outputs (large; regenerable, not source)
+data/
+dist/
+
+# Python caches / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+
+# OS
+.DS_Store
+
+# Secrets (none currently exist in this repo - keep it that way)
+.env
+.env.*
+
+# Temp / scratch / editor
+.tmp/
+*.swp
+.vscode/
+.idea/

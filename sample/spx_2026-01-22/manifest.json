@@ -1,0 +1,45 @@
+{
+  "date": "2026-01-22",
+  "underlying": "SPX",
+  "roots": [
+    "SPX",
+    "SPXW"
+  ],
+  "minutes": 451,
+  "eod_minute_ns": 1769119200000000000,
+  "layers": {
+    "vol_surface_params": {
+      "rows": 27451,
+      "sha256": "1727feb8aa15e13a7bb0cb0a672278c46cc52c1c23c6d5a2724456967a553662"
+    },
+    "iv_history": {
+      "rows": 4059,
+      "sha256": "5ad2fb55a0807f77d76c9d4419448528d7c1309235a8af1c2136e9dd688f8bf1"
+    },
+    "vol_surface_grid": {
+      "rows": 9177,
+      "sha256": "552f9907befc06e8e78e9b9270edc42fbd4cf3ab78d7b3d3242259dfd0126db9"
+    },
+    "option_quotes": {
+      "rows": 22207,
+      "sha256": "da57608f15df3f543e98ead013cc3aec46f2bbf39aaf6d308f5cd4ce5c9debb7"
+    }
+  },
+  "errors": [],
+  "timing": {
+    "reduce_s": 7.0,
+    "fit_s": 218.8
+  },
+  "engine_version": "0.4.0",
+  "layer_sha256": {
+    "iv_history": "5ad2fb55a0807f77d76c9d4419448528d7c1309235a8af1c2136e9dd688f8bf1",
+    "underlier_state": "aeadab8f94aaa01b48d750f5fb734f57c864976c4aed854000cb0ef4e7e2c02f",
+    "vol_surface_grid": "552f9907befc06e8e78e9b9270edc42fbd4cf3ab78d7b3d3242259dfd0126db9",
+    "vrp_implied": "169941b30a5f305a3c7ad3029268f15e17163775d12c4e5ea0d882f76be0be15",
+    "forward_vol": "efee9c26d02d172f4457328dfc2a780aeef16714055cfd0b6b72fa3b0f626490",
+    "event_vol": "a13f572376de4f0888a1841b5577b2021480f5d0872d941d10f41359aacea76b",
+    "forward_vol_grid": "3a7a118e96c99718024947ebab65911d18b02a6a6525f65895f54e859aca12e7",
+    "vol_surface_params": "00246c139d3e7ec3edf5af10cda7ce022e20480d0066f8648e5afa30d07dec97",
+    "option_quotes": "da57608f15df3f543e98ead013cc3aec46f2bbf39aaf6d308f5cd4ce5c9debb7"
+  }
+}
