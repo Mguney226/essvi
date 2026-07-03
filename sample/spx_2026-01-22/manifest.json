@@ -10,7 +10,7 @@
   "layers": {
     "vol_surface_params": {
       "rows": 27451,
-      "sha256": "1727feb8aa15e13a7bb0cb0a672278c46cc52c1c23c6d5a2724456967a553662"
+      "sha256": "00246c139d3e7ec3edf5af10cda7ce022e20480d0066f8648e5afa30d07dec97"
     },
     "iv_history": {
       "rows": 4059,
@@ -41,5 +41,6 @@
     "forward_vol_grid": "3a7a118e96c99718024947ebab65911d18b02a6a6525f65895f54e859aca12e7",
     "vol_surface_params": "00246c139d3e7ec3edf5af10cda7ce022e20480d0066f8648e5afa30d07dec97",
     "option_quotes": "da57608f15df3f543e98ead013cc3aec46f2bbf39aaf6d308f5cd4ce5c9debb7"
-  }
+  },
+  "note": " manifest hashes refreshed 2026-07-03 after the params-layer schema migration (eta/gamma/median_spread/n_quotes columns added)."
 }
